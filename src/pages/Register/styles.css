@@ -1,0 +1,20 @@
+div#register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: sandybrown;
+    border: 0.01rem solid black;
+    border-radius: 1%;
+    width: 80vw;
+    height: 80vh;
+}
+
+form{
+    display: grid;
+    font-size: 1.4rem;
+}
+
+label + input {
+    margin: 0.8rem;
+    
+}
