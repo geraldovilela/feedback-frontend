@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 import './styles.css'
 
@@ -11,7 +12,8 @@ export default function Landing() {
                 <input type="text" className="login" />
                 <label htmlFor="" className="password">Senha:</label>
                 <input type="password" className="login" />
-                <a href="/register">Cadastre-se</a>
+                <Link className="link" to="/main">Acessar</Link>
+                <Link className="link" to="/register">Cadastre-se</Link>
             </form>
             
             
