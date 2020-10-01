@@ -1,0 +1,33 @@
+article {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+        
+}
+div.feedback-item{
+   
+    height: 350px;
+    width: 500px;
+    background: skyblue;
+    padding: 0.6rem 0;
+   
+}
+header.feedback-header {
+   width: 50%;
+   margin: 0.6rem;
+
+}
+
+div#feedback-container {
+    height: 150px;
+    width: 500px;
+    margin: 0.6rem;
+}
+
+button {
+    height: 2.2rem;
+    width: 3.2rem;
+    border-radius: 25px ;
+    
+}
