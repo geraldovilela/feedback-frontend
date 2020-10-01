@@ -2,14 +2,12 @@ import React from 'react';
 
 import './global.css'
 
-import Landing from './pages/Landing';
-import Register from './pages/Register';
-import Feedback from './pages/Feedback';
+import Routes from './routes';
 
 function App() {
   return (
     <div className="App">
-      <Feedback />
+      <Routes/>
     </div>
   );
 }
