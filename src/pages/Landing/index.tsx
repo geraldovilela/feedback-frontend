@@ -2,11 +2,13 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 
 import './styles.css'
+import Logo from '../../assets/imgs/feedLogo.png';
 
 export default function Landing() {
     return (
 
         <div id="container">
+            <img src={Logo} alt="Feedback"/>
             <form className="login">
                 <label htmlFor="">Loguin:</label>
                 <input type="text" className="login" />
