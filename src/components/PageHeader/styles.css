@@ -1,0 +1,21 @@
+header.page-header {
+    display: flex;
+    flex-direction: column;
+}
+ div img.logout {
+     size: 1vh;
+     height: 5vh;
+ }
+
+.page-header .top-bar-container {
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.page-header .top-bar-container > img {
+    height: 6.6rem;
+}
