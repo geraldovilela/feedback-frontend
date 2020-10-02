@@ -2,7 +2,7 @@ div#register {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: sandybrown;
+    background: whitesmoke;
     border: 0.01rem solid black;
     border-radius: 1%;
     width: 80vw;
@@ -12,9 +12,17 @@ div#register {
 form{
     display: grid;
     font-size: 1.4rem;
+    align-items: center;
 }
 
 label + input {
     margin: 0.8rem;
     
+}
+
+form  button{
+    margin: 2.6rem;
+    align-self: center;
+    height: 1.6rem;
+    width: 6.6rem;
 }
