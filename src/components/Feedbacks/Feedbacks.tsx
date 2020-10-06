@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Edit from '../../assets/icons/edit.svg';
 
 import './styles.css'
 
@@ -7,9 +9,17 @@ const Feedbacks = () => {
         <article>
             <div className="feedback-item">
                 <header className="feedback-header">
-                    <strong className="titles">Usuario Avaliado</strong>
-                    <p><strong>Data:</strong> 05/05/2005</p><button>Editar</button>
-                    
+                    <div>
+                        <strong className="titles">Usuario Avaliado</strong>
+                        <p>Fulaninho</p>
+                    </div>
+                    <div>
+                        <p><strong>Data:</strong> 05/05/2005</p>
+
+                        <Link to="/edit">
+                            <img src={Edit} alt="Editar Feedback" />
+                        </Link>
+                    </div>
                 </header>
                 <div id="feedback-container">
                     <strong className="titles">Pontos a melhorar</strong>
@@ -24,7 +34,7 @@ const Feedbacks = () => {
                     <strong className="titles">Feedback Final</strong>
                     <p className="content">loreypsum</p><br></br>
                 </div>
-                
+
             </div>
         </article>
     )
