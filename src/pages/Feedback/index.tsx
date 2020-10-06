@@ -8,10 +8,11 @@ export default function Feedback() {
         <>
             <PageHeader />
             <div id="container">
-
                 <main id="container">
                     <Feedbacks></Feedbacks>
-                    
+                    <Feedbacks></Feedbacks>
+                    <Feedbacks></Feedbacks>
+                    <Feedbacks></Feedbacks>
                 </main>
             </div>
         </>
