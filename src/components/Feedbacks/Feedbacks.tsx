@@ -23,16 +23,16 @@ const Feedbacks = () => {
                 </header>
                 <div id="feedback-container">
                     <strong className="titles">Pontos a melhorar</strong>
-                    <p className="content">loreypsum</p><br></br>
+                    <p className="content">loreypsum</p>
 
                     <strong className="titles">Pontos a manter</strong>
-                    <p className="content">loreypsum</p><br></br>
+                    <p className="content">loreypsum</p>
 
                     <strong className="titles">Sugestões</strong>
-                    <p className="content">loreypsum</p><br></br>
+                    <p className="content">loreypsumaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
 
                     <strong className="titles">Feedback Final</strong>
-                    <p className="content">loreypsum</p><br></br>
+                    <p className="content">loreypsum</p>
                 </div>
 
             </div>

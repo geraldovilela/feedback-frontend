@@ -10,18 +10,31 @@ div.feedback-item{
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 2fr;
     background:grey;
+    
    
 }
 header.feedback-header {
    display: flex;
    justify-content: space-between;
    background:snow;
+   width: 75%;
    height: 85px;
+   padding: 0.5rem;
    border-top: black solid 2px;
+   
 }
 
 div#feedback-container{
     display:inline-flex;
     box-sizing: content-box;
   
+}
+
+div#feedback-container strong {
+    margin: 0.3rem 0.3rem;
+}
+
+div#feedback-container p{
+    margin: 0.3rem 0.3rem;
+    word-break: break-all;
 }
