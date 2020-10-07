@@ -4,12 +4,13 @@ import Feedbacks from '../../components/Feedbacks/Feedbacks';
 import PageHeader from '../../components/PageHeader';
 import api from '../../services/api';
 
-export default function Feedback() {
-    const [feedbacks, setFeedbacks]= useState({})
-    const id = localStorage.getItem('login')
+import './styles.css'
+
+export default function Feedbaack() {
+    const [feedbacks, setFeedbacks]= useState([])
     const getFeedbacks= useCallback( async ()=>{
         const data = await api.get('/feedback').then()
-        setFeedbacks(data);
+        setFeedbacks(data.data);
         
     },[]);
     
@@ -25,8 +26,10 @@ export default function Feedback() {
             <PageHeader />
             <div id="container">
                 <main id="container">
-                 
-                    <Feedbacks></Feedbacks>
+                 {feedbacks.map(feedback=>{
+                     return (<Feedbacks feedback={feedback}/>)
+                 })}
+                   
                 
                 </main>
             </div>

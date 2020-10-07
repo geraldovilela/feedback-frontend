@@ -1,16 +1,15 @@
-article {
-    display: flex;
-    height: 90%;
-    width: 90%;
-        
+div {
+  
+   box-sizing: border-box;
+  
 }
 div.feedback-item{
     display: grid;
-    grid: 1fr 2fr;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 2fr;
-    background:grey;
-    
+    background: #9cc5e0;
+    align-self: center;
+    justify-self: center;
    
 }
 header.feedback-header {
@@ -18,7 +17,6 @@ header.feedback-header {
    justify-content: space-between;
    background:snow;
    width: 75%;
-   height: 85px;
    padding: 0.5rem;
    border-top: black solid 2px;
    
@@ -26,8 +24,7 @@ header.feedback-header {
 
 div#feedback-container{
     display:inline-flex;
-    box-sizing: content-box;
-  
+    box-sizing: border-box;
 }
 
 div#feedback-container strong {
